@@ -96,7 +96,7 @@ network 192.168.0.232/30 area 0
 
 ip route 0.0.0.0/0 172.16.4.1
 
-ip nat pool HQ-NAT-POOL 192.168.0.226-192.168.0.231
+ip nat pool HQ-NAT-POOL 192.168.0.192-192.168.0.231
 ip nat source dynamic inside-to-outside pool HQ-NAT-POOL overload interface ISP
 
 # BR-RTR Configuration
