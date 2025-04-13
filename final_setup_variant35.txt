@@ -263,3 +263,6 @@ tzselect
 39
 10
 1
+
+На HQ-CLI HQ-SRV, BR-SRV echo "nameserver 192.168.0.226" >> /etc/resolv.conf
+
